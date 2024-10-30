@@ -1,0 +1,75 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+.LT_form table.LT_table {
+    background: #F9F9F9;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    width: 260px;
+    border: 1px solid #d5d5d5;
+}
+
+.LT_form table.LT_table td {
+    padding: 8px;
+}
+
+.LT_form a {
+    text-decoration: none;
+    color:#0091D5;
+}
+
+.LT_form fieldset {
+    border: medium none !important; 
+    margin: 0 0 7px; 
+    min-width: 100%; 
+    padding: 0; 
+    width: 100%;
+}
+
+.LT_form input#LT_calc_amt,
+.LT_form input#LT_calc_term,
+.LT_form input#LT_calc_rate,
+.LT_form select#LT_calc_method {
+    width: 100%; 
+    border: 1px solid #ccc; 
+    background: #FFF; 
+    padding: 7px;
+    border-radius: 3px;
+    color: #666;
+    font-size: 12px;
+}
+
+.LT_form button#lt_submit {
+    cursor: pointer; 
+    width: 100%; 
+    border: none; 
+    background: #4CAF50; 
+    color: #FFF; 
+    padding: 10px; 
+    font-size: 18px;
+}
+
+.LT_form p.LT_result {
+    text-align:center;
+    color:#0091D5;
+    font-weight:bold;
+}
+
+.LT_form p.LT_header {
+    color:#0091D5;
+    font-weight:bold;
+    text-align: center;
+}
+
+.LT_form p.LT_footer {
+    color:#777;
+    font-size: 80%;
+    text-align: center;
+}
+
+.LT_form p.LT_label {
+    color:#777777;
+    margin: 0;
+    padding: 0;
+}
